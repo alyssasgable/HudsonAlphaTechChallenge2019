@@ -1,0 +1,92 @@
+info  2019-02-24T15:25:25.913 thread-0  chain_plugin.cpp:335          plugin_initialize    ] initializing chain plugin
+warn  2019-02-24T15:25:25.914 thread-0  chain_plugin.cpp:707          plugin_initialize    ] 13 St13runtime_error: database dirty flag set
+rethrow database dirty flag set: 
+    {"what":"database dirty flag set"}
+    thread-0  chain_plugin.cpp:707 plugin_initialize
+error 2019-02-24T15:25:25.914 thread-0  main.cpp:122                  main                 ] database dirty flag set (likely due to unclean shutdown): replay required
+info  2019-02-24T15:27:27.009 thread-0  chain_plugin.cpp:335          plugin_initialize    ] initializing chain plugin
+info  2019-02-24T15:27:27.013 thread-0  block_log.cpp:134             open                 ] Log is nonempty
+info  2019-02-24T15:27:27.013 thread-0  block_log.cpp:161             open                 ] Index is nonempty
+info  2019-02-24T15:27:27.033 thread-0  http_plugin.cpp:422           plugin_initialize    ] configured http to listen on 127.0.0.1:8888
+warn  2019-02-24T15:27:27.033 thread-0  history_plugin.cpp:321        plugin_initialize    ] --filter-on * enabled. This can fill shared_mem, causing nodeos to stop.
+info  2019-02-24T15:27:27.040 thread-0  net_plugin.cpp:2878           plugin_initialize    ] Initialize net plugin
+info  2019-02-24T15:27:27.040 thread-0  net_plugin.cpp:2903           plugin_initialize    ] host: 0.0.0.0 port: 9876 
+info  2019-02-24T15:27:27.040 thread-0  net_plugin.cpp:2975           plugin_initialize    ] my node_id is b0bea24b78b10d5ebfd8a03a6418260609b6467562252a6d90e0da27b4899705
+info  2019-02-24T15:27:27.040 thread-0  http_plugin.cpp:377           operator()           ] configured http with Access-Control-Allow-Origin: *
+info  2019-02-24T15:27:27.040 thread-0  main.cpp:107                  main                 ] nodeos version v1.6.2
+info  2019-02-24T15:27:27.040 thread-0  main.cpp:108                  main                 ] eosio root is /Users/alyssagable/Library/Application Support
+info  2019-02-24T15:27:27.040 thread-0  main.cpp:109                  main                 ] nodeos using configuration file /Users/alyssagable/Library/Application Support/eosio/nodeos/config/config.ini
+info  2019-02-24T15:27:27.040 thread-0  main.cpp:110                  main                 ] nodeos data directory is /Users/alyssagable/Library/Application Support/eosio/nodeos/data
+error 2019-02-24T15:27:27.045 thread-0  main.cpp:129                  main                 ] 3020000 fork_database_exception: Fork database exception
+reversible block database is inconsistent with fork database, replay blockchain
+    {"head":54842,"unconfimed":54846}
+    thread-0  controller.cpp:380 init
+
+    {}
+    thread-0  chain_plugin.cpp:738 plugin_startup
+info  2019-02-24T15:31:16.371 thread-0  chain_plugin.cpp:335          plugin_initialize    ] initializing chain plugin
+info  2019-02-24T15:31:16.375 thread-0  block_log.cpp:134             open                 ] Log is nonempty
+info  2019-02-24T15:31:16.376 thread-0  block_log.cpp:161             open                 ] Index is nonempty
+info  2019-02-24T15:31:16.378 thread-0  http_plugin.cpp:422           plugin_initialize    ] configured http to listen on 127.0.0.1:8888
+warn  2019-02-24T15:31:16.378 thread-0  history_plugin.cpp:321        plugin_initialize    ] --filter-on * enabled. This can fill shared_mem, causing nodeos to stop.
+info  2019-02-24T15:31:16.378 thread-0  net_plugin.cpp:2878           plugin_initialize    ] Initialize net plugin
+info  2019-02-24T15:31:16.378 thread-0  net_plugin.cpp:2903           plugin_initialize    ] host: 0.0.0.0 port: 9876 
+info  2019-02-24T15:31:16.378 thread-0  net_plugin.cpp:2975           plugin_initialize    ] my node_id is bf456f9c2b4376d889f85ab11b429b9650b3294036a80df24a349f3e2aa7e28d
+info  2019-02-24T15:31:16.378 thread-0  http_plugin.cpp:377           operator()           ] configured http with Access-Control-Allow-Origin: *
+info  2019-02-24T15:31:16.378 thread-0  main.cpp:107                  main                 ] nodeos version v1.6.2
+info  2019-02-24T15:31:16.378 thread-0  main.cpp:108                  main                 ] eosio root is /Users/alyssagable/Library/Application Support
+info  2019-02-24T15:31:16.379 thread-0  main.cpp:109                  main                 ] nodeos using configuration file /Users/alyssagable/Library/Application Support/eosio/nodeos/config/config.ini
+info  2019-02-24T15:31:16.379 thread-0  main.cpp:110                  main                 ] nodeos data directory is /Users/alyssagable/Library/Application Support/eosio/nodeos/data
+error 2019-02-24T15:31:16.383 thread-0  main.cpp:129                  main                 ] 3020000 fork_database_exception: Fork database exception
+reversible block database is inconsistent with fork database, replay blockchain
+    {"head":54842,"unconfimed":54846}
+    thread-0  controller.cpp:380 init
+
+    {}
+    thread-0  chain_plugin.cpp:738 plugin_startup
+info  2019-02-24T15:36:47.482 thread-0  chain_plugin.cpp:335          plugin_initialize    ] initializing chain plugin
+info  2019-02-24T15:36:47.520 thread-0  block_log.cpp:134             open                 ] Log is nonempty
+info  2019-02-24T15:36:47.527 thread-0  block_log.cpp:161             open                 ] Index is nonempty
+info  2019-02-24T15:36:47.573 thread-0  http_plugin.cpp:422           plugin_initialize    ] configured http to listen on 127.0.0.1:8888
+warn  2019-02-24T15:36:47.574 thread-0  history_plugin.cpp:321        plugin_initialize    ] --filter-on * enabled. This can fill shared_mem, causing nodeos to stop.
+info  2019-02-24T15:36:47.580 thread-0  net_plugin.cpp:2878           plugin_initialize    ] Initialize net plugin
+info  2019-02-24T15:36:47.581 thread-0  net_plugin.cpp:2903           plugin_initialize    ] host: 0.0.0.0 port: 9876 
+info  2019-02-24T15:36:47.581 thread-0  net_plugin.cpp:2975           plugin_initialize    ] my node_id is 67382bb58bc9591980d6948d591b0f99b2f26ab5c5ad5a4c50aec66205782eef
+info  2019-02-24T15:36:47.581 thread-0  http_plugin.cpp:377           operator()           ] configured http with Access-Control-Allow-Origin: *
+info  2019-02-24T15:36:47.581 thread-0  main.cpp:107                  main                 ] nodeos version v1.6.2
+info  2019-02-24T15:36:47.581 thread-0  main.cpp:108                  main                 ] eosio root is /Users/alyssagable/Library/Application Support
+info  2019-02-24T15:36:47.581 thread-0  main.cpp:109                  main                 ] nodeos using configuration file /Users/alyssagable/Library/Application Support/eosio/nodeos/config/config.ini
+info  2019-02-24T15:36:47.581 thread-0  main.cpp:110                  main                 ] nodeos data directory is /Users/alyssagable/Library/Application Support/eosio/nodeos/data
+libc++abi.dylib: terminating with uncaught exception of type eosio::chain::unlinkable_block_exception
+info  2019-02-24T15:43:46.304 thread-0  chain_plugin.cpp:335          plugin_initialize    ] initializing chain plugin
+warn  2019-02-24T15:43:46.314 thread-0  chain_plugin.cpp:707          plugin_initialize    ] 13 St13runtime_error: database dirty flag set
+rethrow database dirty flag set: 
+    {"what":"database dirty flag set"}
+    thread-0  chain_plugin.cpp:707 plugin_initialize
+error 2019-02-24T15:43:46.315 thread-0  main.cpp:122                  main                 ] database dirty flag set (likely due to unclean shutdown): replay required
+info  2019-02-24T15:47:41.453 thread-0  chain_plugin.cpp:335          plugin_initialize    ] initializing chain plugin
+warn  2019-02-24T15:47:41.454 thread-0  chain_plugin.cpp:707          plugin_initialize    ] 13 St13runtime_error: database dirty flag set
+rethrow database dirty flag set: 
+    {"what":"database dirty flag set"}
+    thread-0  chain_plugin.cpp:707 plugin_initialize
+error 2019-02-24T15:47:41.454 thread-0  main.cpp:122                  main                 ] database dirty flag set (likely due to unclean shutdown): replay required
+info  2019-02-24T15:53:24.629 thread-0  chain_plugin.cpp:335          plugin_initialize    ] initializing chain plugin
+info  2019-02-24T15:53:24.637 thread-0  block_log.cpp:134             open                 ] Log is nonempty
+info  2019-02-24T15:53:24.639 thread-0  block_log.cpp:161             open                 ] Index is nonempty
+info  2019-02-24T15:53:24.670 thread-0  http_plugin.cpp:422           plugin_initialize    ] configured http to listen on 127.0.0.1:8888
+warn  2019-02-24T15:53:24.670 thread-0  history_plugin.cpp:321        plugin_initialize    ] --filter-on * enabled. This can fill shared_mem, causing nodeos to stop.
+info  2019-02-24T15:53:24.671 thread-0  net_plugin.cpp:2878           plugin_initialize    ] Initialize net plugin
+info  2019-02-24T15:53:24.672 thread-0  net_plugin.cpp:2903           plugin_initialize    ] host: 0.0.0.0 port: 9876 
+info  2019-02-24T15:53:24.672 thread-0  net_plugin.cpp:2975           plugin_initialize    ] my node_id is 26265b38772dfd99fa7450a59c1a3ff0422583fc22bc3057b3174db06a14f135
+info  2019-02-24T15:53:24.672 thread-0  http_plugin.cpp:377           operator()           ] configured http with Access-Control-Allow-Origin: *
+info  2019-02-24T15:53:24.672 thread-0  main.cpp:107                  main                 ] nodeos version v1.6.2
+info  2019-02-24T15:53:24.672 thread-0  main.cpp:108                  main                 ] eosio root is /Users/alyssagable/Library/Application Support
+info  2019-02-24T15:53:24.672 thread-0  main.cpp:109                  main                 ] nodeos using configuration file /Users/alyssagable/Library/Application Support/eosio/nodeos/config/config.ini
+info  2019-02-24T15:53:24.672 thread-0  main.cpp:110                  main                 ] nodeos data directory is /Users/alyssagable/Library/Application Support/eosio/nodeos/data
+error 2019-02-24T15:53:24.687 thread-0  main.cpp:129                  main                 ] 3020000 fork_database_exception: Fork database exception
+reversible block database is inconsistent with fork database, replay blockchain
+    {"head":54842,"unconfimed":54846}
+    thread-0  controller.cpp:380 init
+
+    {}
+    thread-0  chain_plugin.cpp:738 plugin_startup

@@ -44,7 +44,6 @@ To provide users with a easily accessible directory of black and local businesse
 
 ---
 
-- GatsbyJS [https://www.gatsbyjs.org/](https://www.gatsbyjs.org/)
 - EOS [https://eos.io/](https://eos.io/)
 - AWS S3 and EC2 [https://aws.amazon.com/](https://aws.amazon.com/)
 - ReactJS
@@ -57,5 +56,16 @@ To provide users with a easily accessible directory of black and local businesse
 - [https://battles.eos.io/](https://battles.eos.io/)
 
 ## To Do List 📝
+- Set up environment for EOS 
+	
+	`brew tap eosio/eosio brew install eosio`
+	
+- Create account https://dev4eos.com/
 
----
+`{"msg": "succeeded", "keys": {"active_key": {"public": "EOS78BSXQnbNPMTjKVofVnpTGWFkURpNGiDeuXXV5fd4dcbGszYtp", "private": "5JEYEPp2mBow3Zfk4YrXDuPsXzKhM5wDQ3MZ4MzJHnL27rszFXY"}, "owner_key": {"public": "EOS6woW6cBTUAvgcpVCZjVg9NvuiNE1aoy3fFVPBNiZeuHCnEUXZL", "private": "5KQK4FJs3VJABzWHC7fdLbs8pcYKAPoVbX5XbxLhTDfP599xrx2"}}, "account": "alyssagable1"}`
+
+- Start Node & Setup
+- Install the CDT
+- Create Development Wallet
+	`"PW5JemptiqJpqisWbJ5UMLwZYijzJTarmx2i9FZ5RPwHpcrVTQy1G"`
+- 

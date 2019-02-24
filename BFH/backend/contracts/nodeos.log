@@ -1,0 +1,12 @@
+info  2019-02-24T15:21:56.716 thread-0  chain_plugin.cpp:335          plugin_initialize    ] initializing chain plugin
+warn  2019-02-24T15:21:56.765 thread-0  chain_plugin.cpp:707          plugin_initialize    ] 13 St13runtime_error: database dirty flag set
+rethrow database dirty flag set: 
+    {"what":"database dirty flag set"}
+    thread-0  chain_plugin.cpp:707 plugin_initialize
+error 2019-02-24T15:21:56.765 thread-0  main.cpp:122                  main                 ] database dirty flag set (likely due to unclean shutdown): replay required
+info  2019-02-24T15:22:49.333 thread-0  chain_plugin.cpp:335          plugin_initialize    ] initializing chain plugin
+warn  2019-02-24T15:22:49.336 thread-0  chain_plugin.cpp:707          plugin_initialize    ] 13 St13runtime_error: database dirty flag set
+rethrow database dirty flag set: 
+    {"what":"database dirty flag set"}
+    thread-0  chain_plugin.cpp:707 plugin_initialize
+error 2019-02-24T15:22:49.336 thread-0  main.cpp:122                  main                 ] database dirty flag set (likely due to unclean shutdown): replay required
