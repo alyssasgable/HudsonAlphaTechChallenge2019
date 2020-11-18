@@ -32,8 +32,7 @@ Source: [https://www.notion.so/bytheculture/Black-Family-History-9316f9c90365463
 
 ---
 
-To provide users with a easily accessible directory of black and local businesses and to connect more black businesses to customers. 
-
+To provide users with a secure easily accessible directory of their family history and stories.
 ## Platform📱
 
 - iOS
